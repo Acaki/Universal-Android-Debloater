@@ -107,7 +107,7 @@ declare -a microsoft=(
 	"com.microsoft.office.officehubrow"
 	# Microsoft Mobile Office Beta
 
-	"com.microsoft.appmanager"
+	# "com.microsoft.appmanager"
 	# Your Phone Companion - Link to Windows (https://play.google.com/store/apps/details?id=com.microsoft.appmanager)
 	# Microsoft app for synchronising your phone with a W10 PC.
 

@@ -272,7 +272,7 @@ declare -a google=(
 	"com.google.android.syncadapters.bookmarks"
 	# Synchronisation for Google Chrome bookmarks
 
-	"com.google.android.syncadapters.calendar" 
+	# "com.google.android.syncadapters.calendar" 
 	# Synchronisation for Google Calendar.
 
 	"com.google.android.syncadapters.contacts" 

@@ -32,7 +32,7 @@ declare -a samsung=(
 	# Have a look at their privacy policy. That's... pretty scary : https://hiya.com/fr/hiya-data-policy	
 	# Needed for Samsung Smart Call (com.samsung.android.smartcallprovider)
 	
-	"com.knox.vpn.proxyhandler" # KNOX stuff
+	# "com.knox.vpn.proxyhandler" # KNOX stuff
 	# Samsung Knox allows business and personal content to "securely" coexist on the same handset. 
 	# This package handle proxy along side KNOX
 
@@ -42,7 +42,7 @@ declare -a samsung=(
 	# Lets your access videos, music and gaming and gives quick access to services such as cabs, movies, recharge and bill payment, 
 	# food ordering, travel, hyper local deals and Samsung Care, among others.
 
-	"com.mobeam.barcodeService"
+	# "com.mobeam.barcodeService"
 	# The Beaming Service enables your device to beam (relay) barcodes, as found on digital coupons, event tickets, library cards, loyalty 
 	# cards and membership cards to 1D red laser and Image based scanners prevalent at nearly every retail store and checkout stand around the world.
 	# Mobeam is a 3-party (https://mobeam.com/)
@@ -97,7 +97,7 @@ declare -a samsung=(
 	#
 	# adv maybe refers to 'Samsung Advanced Institute of Technology' (or simply means 'advanced')
 
-	"com.samsung.android.app.appsedge"
+	# "com.samsung.android.app.appsedge"
 	# Samsung apps edge (https://www.samsung.com/global/galaxy/what-is/apps-edge/)
 	# Displays your five most frequently used apps for you to access at a moment’s notice.
 
@@ -124,7 +124,7 @@ declare -a samsung=(
 	"com.samsung.android.app.clipboardedge"
 	# Clipboard edge panel
 
-	"com.samsung.android.app.cocktailbarservice"
+	# "com.samsung.android.app.cocktailbarservice"
 	# Edge screen
 	# Enables you to open your five most used apps by simply swiping the edge of the screen.
 	# Swipe one of the edges of the screen to bring up information even when your device is locked (with the screen off). 
@@ -286,7 +286,7 @@ declare -a samsung=(
 	# It's anti-theft feature. I couldn't find exactly what does the samsung layer to the already existing android device protection : 
 	# https://www.greenbot.com/article/2904397/everything-you-need-to-know-about-device-protection-in-android-51.html
 
-	"com.samsung.android.authfw"
+	# "com.samsung.android.authfw"
 	# Used by Samsung Pass
 	# Biometric authentication service that can be used to sign in to websites and apps in your mobile.
 	# https://www.samsung.com/global/galaxy/apps/samsung-pass/
@@ -387,7 +387,7 @@ declare -a samsung=(
 	# https://www.ctrl.blog/entry/what-is-samsung-secure-wi-fi.html
 	# Note: If you need to use a VPN use something more trustworthy*
 
-	"com.samsung.android.fmm"
+	# "com.samsung.android.fmm"
 	# Find My Mobile
 	# Tracks down your device when it gets lost. 
 	# Lets you remotely lock your device, block access to Samsung Pay and wipe data from the entire device.
@@ -489,7 +489,7 @@ declare -a samsung=(
 	# Media & Devices feature
 	# https://www.samsung.com/latin_en/support/mobile-devices/media-and-device-feature/
 
-	"com.samsung.android.mobileservice"
+	# "com.samsung.android.mobileservice"
 	# Samsung Experience Service (https://play.google.com/store/apps/details?id=com.samsung.android.mobileservice)
 	# Handle you samsung account and is needed to use some samsung apps features.
 	# It allows you to use multiple Samsung apps, such as Samsung Health, Samsung Pay, Galaxy Apps, Samsung Members, and SmartThings, 
@@ -578,12 +578,12 @@ declare -a samsung=(
 	# https://www.hybrid-analysis.com/sample/2ef5367f700d2644fc51d2cdd8dd0ce97e9a6594cb5b89052537037c5a7aac56?environmentId=200
 	# https://web.archive.org/web/20200604093347/https://www.hybrid-analysis.com/sample/2ef5367f700d2644fc51d2cdd8dd0ce97e9a6594cb5b89052537037c5a7aac56?environmentId=200
 
-	"com.samsung.android.smartface"
+	# "com.samsung.android.smartface"
 	# SmartFaceService
 	# Used to automatically detects faces when using the Samsung camera
 	# NOTE : This package has nothing to do with face unlock (com.samsung.android.bio.face.service)
 
-	"com.samsung.android.smartswitchassistant" # [MORE INFO NEEDED]
+	# "com.samsung.android.smartswitchassistant" # [MORE INFO NEEDED]
 	# Samsung SmartSwitch
 	# Lets you transfer your data from your old (Samsung) phone to your new one.
 	# Needed for com.sec.android.easyMover?
@@ -648,11 +648,11 @@ declare -a samsung=(
 	# Enable you to mirror screen your phone to a TV
 	# https://www.samsung.com/us/apps/smart-view-2/
 
-	"com.samsung.android.spayfw" 
+	# "com.samsung.android.spayfw" 
 	# Samsung Pay Framework needed for Samsung Pay
 	# See below
 
-	"com.samsung.android.spay"
+	# "com.samsung.android.spay"
 	# Samsung Pay (https://play.google.com/store/apps/details?id=com.samsung.android.spay)
 	# Samsung Pay is a mobile payment and digital wallet service by Samsung Electronics that lets users make payments using compatible phones 
 	# and other Samsung-produced devices
@@ -660,7 +660,7 @@ declare -a samsung=(
 	# NOTE : Samsung Pay is KNOX dependant and will never work again if you root your phone.
 	# FYI : Your data are sold (https://www.sammobile.com/news/samsung-pay-new-privacy-policy-your-data-sold/)
 
-	"com.samsung.android.spaymini"
+	# "com.samsung.android.spaymini"
 	# Samsung Pay Mini
 	# Same service as Samsung Pay but for online payments only and is available on all compatible android devices (not only Samsung devices)
 	# https://www.samsung.com/in/samsung-pay/mini/
@@ -691,12 +691,12 @@ declare -a samsung=(
 	# Samsung voice input 
 	# Voice input powered by Bixby. See above.
 
-	"com.samsung.android.themecenter"
+	# "com.samsung.android.themecenter"
 	# Samsung theme center
 	# Run at startup and enable you to download theme from samsung
 	# Safe to remove
 
-	"com.samsung.android.themestore"
+	# "com.samsung.android.themestore"
 	# Galaxy Themes
 	# Official Samsung app for modifying your smartphone's theme.
 	# https://www.samsung.com/global/galaxy/apps/galaxy-themes/
@@ -812,7 +812,7 @@ declare -a samsung=(
 	# https://en.wikipedia.org/wiki/Samsung_Knox
 	# https://images.samsung.com/is/content/samsung/p5/ch/business/enterprise-edition/Knox_Platform_for_Enterprise_Whitepaper_2019.pdf
 
-	"com.samsung.klmsagent"
+	# "com.samsung.klmsagent"
 	# Checks the validity of your KLM/KPE (Knox Licence Manager) licence.
 	# This packages is needed for Samsung Health (com.sec.android.app.shealth) and probably all Knox related apps (like secure folder, samsung Pay...)
 	# 
@@ -1030,7 +1030,7 @@ declare -a samsung=(
 	# Secret code parser
 	# Support for hidden samsung apps launched via secret codes
 
-	"com.sec.android.app.quicktool"
+	# "com.sec.android.app.quicktool"
 	# The Quick Tools panel includes a ruler, a compass and a torch. To add this to the Edge Panel (com.samsung.android.app.clipboardedge)
 
 	"com.sec.android.app.ringtoneBR" # [MORE INFO NEEDED]
@@ -1066,7 +1066,7 @@ declare -a samsung=(
 	# All the legal terms you need to accept when you boot your phone for the first time. 
 	# The Welcome screen which guides you through the basics of setting up your device is the android setup wizard.
 
-	"com.sec.android.app.shealth"
+	# "com.sec.android.app.shealth"
 	# Samsung Health (https://play.google.com/store/apps/details?id=com.sec.android.app.shealth)
 	# Serves to track various aspects of daily life contributing to well being such as physical activity, diet, and sleep.
 	# https://en.wikipedia.org/wiki/Samsung_Health
@@ -1088,7 +1088,7 @@ declare -a samsung=(
 	# Checks after every boot if the ROM and kernel have been modified. This package is only present on Verizon-locked phones.
 	# Verizon has the ability to check if your device has root access (content://com.verizon.security/ROOT_STATUS)
 
-	"com.sec.android.app.translator"
+	# "com.sec.android.app.translator"
 	# Samsung Translater (S Translater)
 	# https://www.samsung.com/africa_en/support/mobile-devices/what-is-s-translator-and-how-does-it-work/
 
@@ -1132,20 +1132,20 @@ declare -a samsung=(
 	# https://en.wikipedia.org/wiki/Samsung_DeX
 	# https://www.samsung.com/global/galaxy/apps/samsung-dex/
 
-	"com.sec.android.easyMover"
+	# "com.sec.android.easyMover"
 	# Samsung Smart Switch Mobile (https://play.google.com/store/apps/details?id=com.sec.android.easyMover)
 	# Allows you to easily transfer content (contacts, photos, music, notes, etc.) to a new Samsung Galaxy device. 
 	# https://www.samsung.com/global/galaxy/apps/smart-switch/
 	# https://fr.wikipedia.org/wiki/Smart_Switch
 
-	"com.sec.android.easyMover.Agent"
+	# "com.sec.android.easyMover.Agent"
 	# Smart Switch Agent
 	# Needed to use Smart Switch. See above.
 
 	"com.sec.android.easyonehand"
 	# Samsung Easy One Hand mode (replaced by One Hand Operation + : com.samsung.android.sidegesturepad)
 
-	"com.sec.android.fido.uaf.asm"
+	# "com.sec.android.fido.uaf.asm"
 	# Fido is a set of open technical specifications for mechanisms of authenticating users to online services that do not depend on passwords.
 	# https://fidoalliance.org/specs/u2f-specs-1.0-bt-nfc-id-amendment/fido-glossary.html
 	# https://fidoalliance.org/specs/fido-v2.0-rd-20170927/fido-overview-v2.0-rd-20170927.html
@@ -1160,7 +1160,7 @@ declare -a samsung=(
 	#
 	# Safe to remove if you don't use password-less authentification to access online servics
 
-	"com.sec.android.fido.uaf.client"
+	# "com.sec.android.fido.uaf.client"
 	# Fido UAF client. It's a layer that connects authenticator and RP (the application owner) and ensures validity of the connection. 
 	# So it can be browser, desktop application, mobile application, platform(i.e. android/ios).
 	# See above
@@ -1210,7 +1210,7 @@ declare -a samsung=(
 	# https://stackoverflow.com/questions/11111067/how-does-modem-code-talk-to-android-code
 	# Samsung RIL is a add on from Samsung : Modem <=> Linux kernel <=> libsamsung-ipc <=> Samsung-RIL <=> Android framework <=> Android applications
 
-	"com.sec.android.service.health"
+	# "com.sec.android.service.health"
 	# Samsung Health Service
 	# Needed for Samsung Health (com.sec.android.app.shealth)
 
@@ -1423,7 +1423,7 @@ declare -a samsung=(
 	# It was a service allowing you to view programming information on the TV and choose programs directly from the phone.
 	# https://en.wikipedia.org/wiki/Samsung_WatchON
 
-	"com.skms.android.agent"
+	# "com.skms.android.agent"
 	# Samsung KMS agent service a client application for Android devices to support eSE-based (embedded secure element) mobile-NFC Services.
 	# https://developer.samsung.com/ese/overview.html
 	# KMS = Key Management System
@@ -1558,7 +1558,7 @@ declare -a samsung=(
 	# Blue ligth filter
 	# You should use it, it's great
 
-	#"com.samsung.android.contacts"
+	# "com.samsung.android.contacts"
 	# Samsung contacts app
 	# Safe to debloat if you use another contacts app
 	# NOTE : If you do, you will no longer be able to access Contacts from the Samsung dialer app.
